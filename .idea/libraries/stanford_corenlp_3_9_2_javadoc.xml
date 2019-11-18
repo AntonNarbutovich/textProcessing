@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="stanford-corenlp-3.9.2-javadoc">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/xom.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/stanford-corenlp-3.9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/stanford-corenlp-3.9.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/stanford-corenlp-3.9.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/xom-1.2.10-src.jar!/src" />
+    </SOURCES>
+  </library>
+</component>

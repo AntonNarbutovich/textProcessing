@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ds.lab.Controller">
+   <children>
+      <TableView fx:id="dataTable" layoutX="1000.0" layoutY="50.0" prefHeight="700.0" prefWidth="400.0">
+        <columns>
+          <TableColumn fx:id="word" prefWidth="275.19989013671875" text="Word" />
+          <TableColumn fx:id="time" minWidth="0.0" prefWidth="124.800048828125" text="Count" />
+        </columns>
+      </TableView>
+      <Button layoutX="219.0" layoutY="81.0" mnemonicParsing="false" onAction="#computeMap" text="Apply" />
+       <TextField fx:id="path" layoutX="117.0" layoutY="37.0" prefHeight="18.0" prefWidth="251.0" />
+       <Button layoutX="388.0" layoutY="37.0" mnemonicParsing="false" onAction="#openDirectoryPath" text="..." />
+      <TextField fx:id="filterField" layoutX="1000.0" layoutY="14.0" prefHeight="18.0" prefWidth="251.0" />
+   </children>
+</AnchorPane>
